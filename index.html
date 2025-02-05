@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,6 +58,7 @@
         width: 170px;
         height: 250px;
         border-radius: 2px;
+        margin: 10px;
      
         
       }
@@ -95,11 +97,16 @@
         background-color: #2c2b2b;
         margin-bottom: 50px;
         width: 60px;
+        text-align: left;
         
 
       }
+      .border p{
+        text-align: left;
+      }
       nav {
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-bottom: 50px;
       }
       .image-heading {
         text-align: center;
@@ -107,11 +114,12 @@
         color: #333;
 
         background-color: yellow;
-        margin-bottom: -20px;
+    
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
         width: 170px;
-        margin-left: 15px;
+        margin-bottom: -5px;
+       
       }
       #icon{
     color: #fcff2f;
@@ -123,7 +131,7 @@
     font-size: 0px;   
 }
       span {
-        color: red;
+        color:#fcff2f;
       }
       @media (max-width:768px) {
         nav a{
@@ -133,99 +141,47 @@
            display: none;
         }
         nav h1{
-            font-size: 25px;
+            font-size: 15px;
         }
-        .images {
-            height: 100px;
-            width: 100px;
-            display: inline-block;
-          margin: 10px;
-         
-           
+        span {
+        color:#fcff2f;
+        font-size: 10px;
+      }
+      #name{
+        font-size: 10px;
+      }
+        .border img{
+width: 110px;
+height: 160px;
+margin: 0px;
+
         }
-        .images img{
-            height: 100px;
-            width: 100px;
+        #h1{
+          font-size: 15px;
+        }
         
-            
-
-        }
-        .margin{
-
-            display:inline-block;
-        align-items: center;
-        justify-content: center;
-        }
         .image-heading {
         text-align: center;
-        font-size: 18px;
+        font-size: 10px;
         color: #333;
 
         background-color: yellow;
-       
+    
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
         width: 110px;
-      
-     
-      }
-      .border img {
-        width: 110px;
-        height: 150px;
-        border-radius: 2px;
-     
-       
-      }
-      .border{
-display: inline-block;
-margin-left: 0px;
-
-      }
-      div p {
-        text-align: left;
-        margin-left: 20px;
-        padding: 5px;
-        font-size: 15px;
-        margin-top: -20px;
-        margin-bottom: 20px;
-      }
-      body{
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-      #font {
-        color: #fcff2f;
-        font-size: 10px;
-        background-color: #2c2b2b;
-        margin-bottom: 20px;
-        width: 40px;
-
+        margin-bottom: 0px;
         
-
       }
-      #pr{
-        font-size: 13px;
-        margin-left:10px;
-      }
-     
-      #h1{
-        font-size: 10px;
 
-
-      }
-      #icon{
-        color: #fcff2f;
-        font-size: 30px;
-
-      }
-      .icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right:50px;
-    margin-left: 0px;
+     #ic{
+      display: block;
+     }
 }
+ .border{
+  display: inline-block;
 
+}
      nav {
        margin-top: 20px; 
      }
@@ -235,19 +191,20 @@ margin-left: 0px;
         margin-right: 0px;
         color: #fcff2f;
         font-size: 30px;
+        display: none;
      }
      #margin{
         margin-top: 20px;
       }
       
         
-      }
+      
       
       #h1{
         font-size: 40px;
       }
       .para p{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
      margin-top: 20px
       }
       #head{
@@ -256,9 +213,7 @@ margin-left: 0px;
     font-size: 40px; 
 margin-left: 0px ;
       }
-      #margin{
-        margin-top: 120px;
-      }
+    
       body {
        
         color: aliceblue;
@@ -268,6 +223,19 @@ margin-left: 0px ;
         border-top: 6px solid yellow;
        
       }
+#name{
+  text-align: left;
+  font-size: 18px;
+}
+#year{
+  text-align: left;
+  font-size: 15px;
+  background-color: #333;
+  padding: 10px;
+  width: 60px;
+ 
+
+}
 
       
     </style>
@@ -305,10 +273,10 @@ margin-left: 0px ;
         <input type="text" id="search" placeholder="search" />
       </div>
     </nav>
-    <center>
-      <div id="margin">
-        <h1 id="h1">Where Quality & Clarity Matters</h1>
-      </div>
+
+      <div><center>
+        <h1 id="h1">Where Quality&Clarity Matters</h1>
+ 
       <div class="para" >
         <p>
           Watch telugu movies developed in HD,Exclusively Availble On Bappam-Tv
@@ -317,100 +285,94 @@ margin-left: 0px ;
         </p>
       </div>
     </center>
-    <div class="margin">
-      <div class="images">
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-
-          <img src="pushpa.jpeg" alt=""/>
-          <p>Puspha-2</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="bhasker.jpeg" alt=""/>
-          <p>Lucky-bhasker</p>
-          <p id="font">2024</p>
-        </div>
-      </div>
-      <div class="images">
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-
-          <img src="pushpa.jpeg" alt=""/>
-          <p>Puspha-2</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="bahubali.jfif" alt=""/>
-          <p>Bahubali</p>
-          <p id="font">2018</p>
-        </div>
-      </div>
-
-
-      <div class="images">
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="daku.jpeg" alt="" />
-          <p>Daku-maharaj</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="marco.jpeg" alt="" />
-          <p>Marco</p>
-          <p id="font">2024</p>
-        </div>
-      </div>
-     
-      <div class="images" >
-        <div class="border">
-          <h2 class="image-heading" >Bappam<span>.tv</span></h2>
-          <img src="Gc.jpeg" alt="" />
-          <p>GameChanger</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="pr.jpeg" alt="" />
-          <p id="pr">Prema-vimanam</p>
-          <p id="font">2024</p>
-        </div>
-      </div>
-      <div class="images">
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="ui.jpeg" alt="" />
-          <p>UI</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="sherlock.jpeg" alt="" />
-          <p>sherlock</p>
-          <p id="font">2024</p>
-        </div>
-      </div>
-
-      <div class="images">
-        <div class="border">
-          <h2 class="image-heading">Bappam <span>.tv</span></h2>
-          <img src="razakar.jpeg" alt="" />
-          <p>Razakar</p>
-          <p id="font">2024</p>
-        </div>
-        <div class="border">
-          <h2 class="image-heading">Bappam<span>.tv</span></h2>
-          <img src="vikram.jfif" alt="" />
-          <p>vikram</p>
-          <p id="font">2024</p>
-          
       
-        
+<center>
+        <div class="border">
+          <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+          <img src="Gc.jpeg" alt=""/>
+          <p id="name">Game-C <br><span>2024</span></p>
       </div>
-      </div>
+      <div class="border">
+        <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+        <img src="ui.jpeg" alt=""/>
+        <p id="name">UI <br><span>2024</span></p>
+      
+    </div>
+    <div class="border">
+      <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+      <img src="idt.jpeg" alt=""/>
+      <p id="name">Identity <br><span>2024</span></p>
+  </div>
+  <div class="border">
+    <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+    <img src="razakar.jpeg" alt=""/>
+    <p id="name">Razakar <br><span>2024</span></p>
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="fear.jpeg" alt=""/>
+  <p id="name">Fear<br><span>2024</span></p>
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="killer.jpeg" alt=""/>
+  <p id="name">coffee killer <br><span>2024</span></p>
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="bahubali.jfif" alt=""/>
+  <p id="name">Bahubali <br><span>2024</span></p>
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="pushpa.jpeg" alt=""/>
+  <p id="name">Pushpa-2<br><span>2024</span></p>
+ 
+                    
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="sherlock.jpeg" alt=""/>
+  <p id="name">sherlock<br><span>2024</span></p>
+ 
+                    
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="vikram.jfif" alt=""/>
+  <p id="name">vikram <br><span>2024</span></p>
+ 
+                    
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="fear.jpeg" alt=""/>
+  <p id="name">fear <br><span>2024</span></p>
+ 
+                    
+</div>
+<div class="border">
+  <h2 class="image-heading">Bappam<span>.tv</span></h2>
+
+  <img src="daku.jpeg" alt=""/>
+  <p id="name">Daku-m<br><span>2024</span></p>
+ 
+                    
+</div>
+
+</center>
+
     </div>
 
   </body>
